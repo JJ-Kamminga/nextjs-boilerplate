@@ -12,17 +12,19 @@
       "dom.iterable",
       "scripthost"
     ],
-    "allowJs": true, //added by next
-    "skipLibCheck": true, //added by next
-    "forceConsistentCasingInFileNames": true, //added by next
-    "noEmit": true, //added by next
-    "esModuleInterop": true, //added by next // requirement for babel
-    "resolveJsonModule": true, //added by next // to match webpack resolution
-    "isolatedModules": true, //added by next // requirement for babel
-    "jsx": "preserve" //added by next //next.js implements its own optimized jsx transform
+    //added by next
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true, // requirement for babel
+    "resolveJsonModule": true, // to match webpack resolution
+    "isolatedModules": true, // requirement for babel
+    "jsx": "preserve" //next.js implements its own optimized jsx transform
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ],
   "compileOnSave": true,
   "exclude": [
